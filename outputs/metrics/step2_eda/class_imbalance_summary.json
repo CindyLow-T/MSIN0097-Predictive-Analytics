@@ -1,0 +1,12 @@
+{
+  "n_samples": 30000,
+  "class_counts": {
+    "0": 23364,
+    "1": 6636
+  },
+  "positive_rate": 0.2212,
+  "majority_class": 0,
+  "majority_accuracy": 0.7788,
+  "baseline_pr_auc": 0.2212,
+  "majority_baseline_balanced_accuracy": 0.5
+}

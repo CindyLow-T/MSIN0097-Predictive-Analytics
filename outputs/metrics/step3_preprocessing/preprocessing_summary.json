@@ -1,0 +1,34 @@
+{
+  "preprocessor": {
+    "numeric_pipeline": [
+      "SimpleImputer(strategy='median')",
+      "RobustScaler()"
+    ],
+    "categorical_pipeline": [
+      "SimpleImputer(strategy='most_frequent')",
+      "OneHotEncoder(handle_unknown='ignore')"
+    ]
+  },
+  "transformed_shapes": {
+    "train": [
+      18000,
+      91
+    ],
+    "val": [
+      6000,
+      91
+    ],
+    "test": [
+      6000,
+      91
+    ]
+  },
+  "transformed_feature_count": 91,
+  "nan_counts_after_transform": {
+    "train": 0,
+    "val": 0,
+    "test": 0
+  },
+  "train_only_fit": true,
+  "feature_names_file": "/Users/cindylow/Documents/New project 5/outputs/metrics/step3_preprocessing/preprocessor_feature_names.txt"
+}

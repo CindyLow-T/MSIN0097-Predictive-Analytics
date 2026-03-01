@@ -1,0 +1,115 @@
+{
+  "final_model_name": "hist_gradient_boosting",
+  "locked_validation_threshold": 0.57,
+  "n_validation": 6000,
+  "n_errors": 1238,
+  "error_rate": 0.20633333333333334,
+  "fp_count": 655,
+  "fn_count": 583,
+  "top_error_segments_pay0": [
+    {
+      "PAY_0": 5,
+      "n": 5,
+      "error_rate": 0.6,
+      "fp_rate": 0.6,
+      "fn_rate": 0.0,
+      "actual_default_rate": 0.4,
+      "predicted_positive_rate": 1.0
+    },
+    {
+      "PAY_0": 7,
+      "n": 2,
+      "error_rate": 0.5,
+      "fp_rate": 0.5,
+      "fn_rate": 0.0,
+      "actual_default_rate": 0.5,
+      "predicted_positive_rate": 1.0
+    },
+    {
+      "PAY_0": 8,
+      "n": 10,
+      "error_rate": 0.5,
+      "fp_rate": 0.5,
+      "fn_rate": 0.0,
+      "actual_default_rate": 0.5,
+      "predicted_positive_rate": 1.0
+    },
+    {
+      "PAY_0": 1,
+      "n": 731,
+      "error_rate": 0.42954856361149113,
+      "fp_rate": 0.3857729138166895,
+      "fn_rate": 0.04377564979480164,
+      "actual_default_rate": 0.3433652530779754,
+      "predicted_positive_rate": 0.6853625170998632
+    },
+    {
+      "PAY_0": 4,
+      "n": 15,
+      "error_rate": 0.4,
+      "fp_rate": 0.3333333333333333,
+      "fn_rate": 0.06666666666666667,
+      "actual_default_rate": 0.6666666666666666,
+      "predicted_positive_rate": 0.9333333333333333
+    },
+    {
+      "PAY_0": 2,
+      "n": 520,
+      "error_rate": 0.31153846153846154,
+      "fp_rate": 0.31153846153846154,
+      "fn_rate": 0.0,
+      "actual_default_rate": 0.6884615384615385,
+      "predicted_positive_rate": 1.0
+    },
+    {
+      "PAY_0": 3,
+      "n": 57,
+      "error_rate": 0.2982456140350877,
+      "fp_rate": 0.2982456140350877,
+      "fn_rate": 0.0,
+      "actual_default_rate": 0.7017543859649122,
+      "predicted_positive_rate": 1.0
+    },
+    {
+      "PAY_0": -1,
+      "n": 1108,
+      "error_rate": 0.18862815884476533,
+      "fp_rate": 0.06227436823104693,
+      "fn_rate": 0.1263537906137184,
+      "actual_default_rate": 0.16967509025270758,
+      "predicted_positive_rate": 0.1055956678700361
+    },
+    {
+      "PAY_0": 0,
+      "n": 2974,
+      "error_rate": 0.14996637525218562,
+      "fp_rate": 0.03328850033624748,
+      "fn_rate": 0.11667787491593813,
+      "actual_default_rate": 0.132817753866846,
+      "predicted_positive_rate": 0.04942837928715535
+    },
+    {
+      "PAY_0": -2,
+      "n": 578,
+      "error_rate": 0.12975778546712802,
+      "fp_rate": 0.020761245674740483,
+      "fn_rate": 0.10899653979238755,
+      "actual_default_rate": 0.13321799307958476,
+      "predicted_positive_rate": 0.04498269896193772
+    }
+  ],
+  "curve_availability": {
+    "hgb_curve_lengths": {
+      "loss_curve": 0,
+      "validation_scores": 0,
+      "train_score": 60,
+      "validation_score": 60
+    },
+    "mlp_curve_lengths": {
+      "loss_curve": 14,
+      "validation_scores": 14,
+      "train_score": 0,
+      "validation_score": 0
+    }
+  }
+}

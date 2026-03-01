@@ -1,0 +1,94 @@
+{
+  "random_state": 42,
+  "tuning_split": "validation",
+  "shortlisted_models": [
+    "hist_gradient_boosting",
+    "mlp_neural_network"
+  ],
+  "hyperparameter_selection_metric": "validation_pr_auc",
+  "threshold_selection_metric": "validation_f1",
+  "best_configs": {
+    "hist_gradient_boosting": {
+      "learning_rate": 0.05,
+      "max_iter": 300,
+      "max_leaf_nodes": 31,
+      "min_samples_leaf": 80,
+      "l2_regularization": 0.1
+    },
+    "mlp_neural_network": {
+      "hidden_layer_sizes": [
+        128
+      ],
+      "alpha": 0.0001,
+      "learning_rate_init": 0.001,
+      "batch_size": 256,
+      "max_iter": 250
+    }
+  },
+  "selected_thresholds": {
+    "hist_gradient_boosting": {
+      "threshold_selection_rule": "maximize_f1_on_validation",
+      "selected_threshold_for_f1": 0.57,
+      "best_f1_metrics": {
+        "threshold": 0.57,
+        "accuracy": 0.7936666666666666,
+        "balanced_accuracy": 0.7102481168172401,
+        "precision": 0.5318084345961401,
+        "recall": 0.560663149962321,
+        "f1": 0.5458547322083639,
+        "roc_auc": 0.7839340978356804,
+        "pr_auc": 0.547593412587478,
+        "log_loss": 0.5380414648190199,
+        "brier_score": 0.17771716140679847,
+        "positive_prediction_rate": 0.23316666666666666
+      },
+      "best_balanced_accuracy_threshold": 0.45,
+      "best_balanced_accuracy_metrics": {
+        "threshold": 0.45,
+        "accuracy": 0.7248333333333333,
+        "balanced_accuracy": 0.7132717074195731,
+        "precision": 0.42506938020351526,
+        "recall": 0.6925395629238885,
+        "f1": 0.526798509601605,
+        "roc_auc": 0.7839340978356804,
+        "pr_auc": 0.547593412587478,
+        "log_loss": 0.5380414648190199,
+        "brier_score": 0.17771716140679847,
+        "positive_prediction_rate": 0.36033333333333334
+      }
+    },
+    "mlp_neural_network": {
+      "threshold_selection_rule": "maximize_f1_on_validation",
+      "selected_threshold_for_f1": 0.25,
+      "best_f1_metrics": {
+        "threshold": 0.25,
+        "accuracy": 0.7911666666666667,
+        "balanced_accuracy": 0.7064848152843275,
+        "precision": 0.5264663805436338,
+        "recall": 0.5546345139412208,
+        "f1": 0.5401834862385321,
+        "roc_auc": 0.7710078629965695,
+        "pr_auc": 0.5392859522687676,
+        "log_loss": 0.4357419883638573,
+        "brier_score": 0.13609317666459117,
+        "positive_prediction_rate": 0.233
+      },
+      "best_balanced_accuracy_threshold": 0.22,
+      "best_balanced_accuracy_metrics": {
+        "threshold": 0.22,
+        "accuracy": 0.7726666666666666,
+        "balanced_accuracy": 0.7107956028885978,
+        "precision": 0.4886433394720687,
+        "recall": 0.5998492840994725,
+        "f1": 0.5385656292286874,
+        "roc_auc": 0.7710078629965695,
+        "pr_auc": 0.5392859522687676,
+        "log_loss": 0.4357419883638573,
+        "brier_score": 0.13609317666459117,
+        "positive_prediction_rate": 0.2715
+      }
+    }
+  },
+  "best_model_by_validation_pr_auc_after_tuning": "hist_gradient_boosting",
+  "test_set_used": false
+}

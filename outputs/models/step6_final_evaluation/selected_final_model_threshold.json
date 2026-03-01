@@ -1,0 +1,6 @@
+{
+  "model_name": "hist_gradient_boosting",
+  "threshold": 0.57,
+  "threshold_selected_on": "validation",
+  "selection_metric": "f1"
+}

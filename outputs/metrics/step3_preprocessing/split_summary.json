@@ -1,0 +1,89 @@
+{
+  "random_state": 42,
+  "test_size": 0.2,
+  "val_size": 0.2,
+  "train_size": 0.6000000000000001,
+  "n_total": 30000,
+  "n_features_raw_model_input": 23,
+  "id_excluded_from_modeling": true,
+  "target_column": "default payment next month",
+  "feature_columns_used": [
+    "LIMIT_BAL",
+    "SEX",
+    "EDUCATION",
+    "MARRIAGE",
+    "AGE",
+    "PAY_0",
+    "PAY_2",
+    "PAY_3",
+    "PAY_4",
+    "PAY_5",
+    "PAY_6",
+    "BILL_AMT1",
+    "BILL_AMT2",
+    "BILL_AMT3",
+    "BILL_AMT4",
+    "BILL_AMT5",
+    "BILL_AMT6",
+    "PAY_AMT1",
+    "PAY_AMT2",
+    "PAY_AMT3",
+    "PAY_AMT4",
+    "PAY_AMT5",
+    "PAY_AMT6"
+  ],
+  "numeric_features": [
+    "LIMIT_BAL",
+    "AGE",
+    "BILL_AMT1",
+    "BILL_AMT2",
+    "BILL_AMT3",
+    "BILL_AMT4",
+    "BILL_AMT5",
+    "BILL_AMT6",
+    "PAY_AMT1",
+    "PAY_AMT2",
+    "PAY_AMT3",
+    "PAY_AMT4",
+    "PAY_AMT5",
+    "PAY_AMT6"
+  ],
+  "categorical_features": [
+    "SEX",
+    "EDUCATION",
+    "MARRIAGE",
+    "PAY_0",
+    "PAY_2",
+    "PAY_3",
+    "PAY_4",
+    "PAY_5",
+    "PAY_6"
+  ],
+  "split_counts": {
+    "train": 18000,
+    "validation": 6000,
+    "test": 6000
+  },
+  "class_distribution": {
+    "overall": {
+      "count_0": 23364,
+      "count_1": 6636,
+      "positive_rate": 0.2212
+    },
+    "train": {
+      "count_0": 14018,
+      "count_1": 3982,
+      "positive_rate": 0.2212222222222222
+    },
+    "validation": {
+      "count_0": 4673,
+      "count_1": 1327,
+      "positive_rate": 0.22116666666666668
+    },
+    "test": {
+      "count_0": 4673,
+      "count_1": 1327,
+      "positive_rate": 0.22116666666666668
+    }
+  }
+}

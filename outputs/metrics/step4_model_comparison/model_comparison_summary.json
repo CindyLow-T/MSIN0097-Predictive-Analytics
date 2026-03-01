@@ -1,0 +1,14 @@
+{
+  "random_state": 42,
+  "evaluation_split": "validation",
+  "n_train": 18000,
+  "n_validation": 6000,
+  "validation_positive_rate": 0.22116666666666668,
+  "primary_ranking_metric": "pr_auc",
+  "best_model_by_pr_auc": "hist_gradient_boosting",
+  "models_compared": [
+    "hist_gradient_boosting",
+    "mlp_neural_network",
+    "logistic_regression"
+  ]
+}

@@ -1,0 +1,2 @@
+model_name,threshold_label,label,fit_seconds_train_plus_val,used_sample_weight,threshold,accuracy,balanced_accuracy,precision,recall,f1,roc_auc,pr_auc,log_loss,brier_score,positive_prediction_rate
+hist_gradient_boosting,locked_threshold_from_validation,hist_gradient_boosting | locked threshold from validation,0.7056568339994556,True,0.57,0.7871666666666667,0.7063450007264874,0.5173611111111112,0.5614167294649586,0.5384893386338996,0.7775318166813442,0.5508422718031728,0.5404549722873477,0.17841443674490068,0.24

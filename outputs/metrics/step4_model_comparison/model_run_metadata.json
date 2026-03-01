@@ -1,0 +1,88 @@
+{
+  "logistic_regression": {
+    "model_class": "LogisticRegression",
+    "fit_seconds": 0.13107162500091363,
+    "supports_sample_weight": true,
+    "used_sample_weight": true,
+    "params": {
+      "C": 1.0,
+      "class_weight": "balanced",
+      "dual": false,
+      "fit_intercept": true,
+      "intercept_scaling": 1,
+      "l1_ratio": null,
+      "max_iter": 2000,
+      "multi_class": "deprecated",
+      "n_jobs": null,
+      "penalty": "l2",
+      "random_state": 42,
+      "solver": "lbfgs",
+      "tol": 0.0001,
+      "verbose": 0,
+      "warm_start": false
+    }
+  },
+  "hist_gradient_boosting": {
+    "model_class": "HistGradientBoostingClassifier",
+    "fit_seconds": 0.5975607079999463,
+    "supports_sample_weight": true,
+    "used_sample_weight": true,
+    "params": {
+      "categorical_features": "from_dtype",
+      "class_weight": null,
+      "early_stopping": true,
+      "interaction_cst": null,
+      "l2_regularization": 0.0,
+      "learning_rate": 0.05,
+      "loss": "log_loss",
+      "max_bins": 255,
+      "max_depth": null,
+      "max_features": 1.0,
+      "max_iter": 300,
+      "max_leaf_nodes": 31,
+      "min_samples_leaf": 40,
+      "monotonic_cst": null,
+      "n_iter_no_change": 10,
+      "random_state": 42,
+      "scoring": "loss",
+      "tol": 1e-07,
+      "validation_fraction": 0.1,
+      "verbose": 0,
+      "warm_start": false
+    }
+  },
+  "mlp_neural_network": {
+    "model_class": "MLPClassifier",
+    "fit_seconds": 0.3137169999990874,
+    "supports_sample_weight": false,
+    "used_sample_weight": false,
+    "params": {
+      "activation": "relu",
+      "alpha": 0.0001,
+      "batch_size": 256,
+      "beta_1": 0.9,
+      "beta_2": 0.999,
+      "early_stopping": true,
+      "epsilon": 1e-08,
+      "hidden_layer_sizes": [
+        64,
+        32
+      ],
+      "learning_rate": "constant",
+      "learning_rate_init": 0.001,
+      "max_fun": 15000,
+      "max_iter": 200,
+      "momentum": 0.9,
+      "n_iter_no_change": 10,
+      "nesterovs_momentum": true,
+      "power_t": 0.5,
+      "random_state": 42,
+      "shuffle": true,
+      "solver": "adam",
+      "tol": 0.0001,
+      "validation_fraction": 0.1,
+      "verbose": false,
+      "warm_start": false
+    }
+  }
+}

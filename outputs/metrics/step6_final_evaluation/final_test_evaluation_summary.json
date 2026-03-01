@@ -1,0 +1,35 @@
+{
+  "final_model_name": "hist_gradient_boosting",
+  "final_model_selected_on": "validation_pr_auc_after_tuning",
+  "final_model_hyperparameters": {
+    "learning_rate": 0.05,
+    "max_iter": 300,
+    "max_leaf_nodes": 31,
+    "min_samples_leaf": 80,
+    "l2_regularization": 0.1
+  },
+  "threshold_source": "validation_set_f1_maximization",
+  "final_threshold": 0.57,
+  "fit_data_for_final_model": "train_plus_validation",
+  "test_set_size": 6000,
+  "test_positive_rate": 0.22116666666666668,
+  "test_metrics_at_final_threshold": {
+    "model_name": "hist_gradient_boosting",
+    "threshold_label": "locked_threshold_from_validation",
+    "label": "hist_gradient_boosting | locked threshold from validation",
+    "fit_seconds_train_plus_val": 0.7056568339994556,
+    "used_sample_weight": true,
+    "threshold": 0.57,
+    "accuracy": 0.7871666666666667,
+    "balanced_accuracy": 0.7063450007264874,
+    "precision": 0.5173611111111112,
+    "recall": 0.5614167294649586,
+    "f1": 0.5384893386338996,
+    "roc_auc": 0.7775318166813442,
+    "pr_auc": 0.5508422718031728,
+    "log_loss": 0.5404549722873477,
+    "brier_score": 0.17841443674490068,
+    "positive_prediction_rate": 0.24
+  },
+  "test_set_used_once_for_final_evaluation": true
+}

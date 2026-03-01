@@ -1,0 +1,139 @@
+{
+  "class_imbalance": {
+    "n_samples": 30000,
+    "class_counts": {
+      "0": 23364,
+      "1": 6636
+    },
+    "positive_rate": 0.2212,
+    "majority_class": 0,
+    "majority_accuracy": 0.7788,
+    "baseline_pr_auc": 0.2212,
+    "majority_baseline_balanced_accuracy": 0.5
+  },
+  "unexpected_category_codes": {
+    "SEX": [],
+    "EDUCATION": [
+      0,
+      5,
+      6
+    ],
+    "MARRIAGE": [
+      0
+    ]
+  },
+  "top_positive_correlations": [
+    {
+      "feature": "PAY_0",
+      "corr_with_target": 0.32479372847862237
+    },
+    {
+      "feature": "PAY_2",
+      "corr_with_target": 0.26355120167216783
+    },
+    {
+      "feature": "PAY_3",
+      "corr_with_target": 0.23525251372491715
+    },
+    {
+      "feature": "PAY_4",
+      "corr_with_target": 0.2166136368424239
+    },
+    {
+      "feature": "PAY_5",
+      "corr_with_target": 0.2041489138761644
+    },
+    {
+      "feature": "PAY_6",
+      "corr_with_target": 0.18686636165354614
+    },
+    {
+      "feature": "LIMIT_BAL",
+      "corr_with_target": -0.15351987639350723
+    },
+    {
+      "feature": "PAY_AMT1",
+      "corr_with_target": -0.07292948777785163
+    },
+    {
+      "feature": "PAY_AMT2",
+      "corr_with_target": -0.058578706582901575
+    },
+    {
+      "feature": "PAY_AMT4",
+      "corr_with_target": -0.056827400892886945
+    }
+  ],
+  "continuous_high_skew_features": [
+    {
+      "feature": "PAY_AMT2",
+      "skew": 30.45381745016943,
+      "zero_rate": 0.17986666666666667,
+      "negative_rate": 0.0,
+      "iqr_outlier_rate": 0.09046666666666667
+    },
+    {
+      "feature": "PAY_AMT3",
+      "skew": 17.216635435129238,
+      "zero_rate": 0.19893333333333332,
+      "negative_rate": 0.0,
+      "iqr_outlier_rate": 0.0866
+    },
+    {
+      "feature": "PAY_AMT1",
+      "skew": 14.66836433284317,
+      "zero_rate": 0.17496666666666666,
+      "negative_rate": 0.0,
+      "iqr_outlier_rate": 0.0915
+    },
+    {
+      "feature": "PAY_AMT4",
+      "skew": 12.904984823542545,
+      "zero_rate": 0.2136,
+      "negative_rate": 0.0,
+      "iqr_outlier_rate": 0.0998
+    },
+    {
+      "feature": "PAY_AMT5",
+      "skew": 11.127417052173817,
+      "zero_rate": 0.22343333333333334,
+      "negative_rate": 0.0,
+      "iqr_outlier_rate": 0.09816666666666667
+    },
+    {
+      "feature": "PAY_AMT6",
+      "skew": 10.640727325044317,
+      "zero_rate": 0.2391,
+      "negative_rate": 0.0,
+      "iqr_outlier_rate": 0.0986
+    },
+    {
+      "feature": "BILL_AMT3",
+      "skew": 3.0878300462007244,
+      "zero_rate": 0.09566666666666666,
+      "negative_rate": 0.021833333333333333,
+      "iqr_outlier_rate": 0.0823
+    },
+    {
+      "feature": "BILL_AMT5",
+      "skew": 2.8763798667028633,
+      "zero_rate": 0.11686666666666666,
+      "negative_rate": 0.021833333333333333,
+      "iqr_outlier_rate": 0.09083333333333334
+    },
+    {
+      "feature": "BILL_AMT6",
+      "skew": 2.8466445756603678,
+      "zero_rate": 0.134,
+      "negative_rate": 0.022933333333333333,
+      "iqr_outlier_rate": 0.08976666666666666
+    },
+    {
+      "feature": "BILL_AMT4",
+      "skew": 2.8219652908028117,
+      "zero_rate": 0.1065,
+      "negative_rate": 0.0225,
+      "iqr_outlier_rate": 0.0874
+    }
+  ]
+}
