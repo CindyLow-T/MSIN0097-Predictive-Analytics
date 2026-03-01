@@ -10,19 +10,26 @@ This project builds a reproducible binary classification pipeline for predicting
 
 ## Main Notebook
 
-- `notebooks/Version 2.ipynb` (latest coursework notebook with diagnostics)
+- `notebooks/predictive_analytics_credit_default_final.ipynb` (latest coursework notebook with diagnostics)
 
 ## Quick Start
 
 1. Create/activate Python environment.
-2. Install dependencies:
-   - `pip install -r requirements.txt`
+2. Install dependencies (choose one):
+   - Reproducible (pinned): `pip install -r requirements-lock.txt`
+   - Flexible (minimum versions): `pip install -r requirements.txt`
 3. Open and run:
-   - `notebooks/Version 2.ipynb`
+   - `notebooks/predictive_analytics_credit_default_final.ipynb`
+4. In Jupyter: `Kernel -> Restart Kernel and Run All Cells` (from-scratch run).
 
 ## Data
 
-- Raw file:
+- Expected raw file path:
+  - `data/raw/default_of_credit_card_clients.xls`
+- Data source:
+  - UCI Machine Learning Repository: Default of Credit Card Clients (Yeh & Lien, 2009)
+  - URL: https://archive.ics.uci.edu/dataset/350/default+of+credit+card+clients
+- If the file is missing, download the dataset and place the Excel file at:
   - `data/raw/default_of_credit_card_clients.xls`
 
 ## Source Modules (`src/`)
@@ -65,6 +72,7 @@ Step-specific folders:
 - Preprocessing fit on training data only
 - Validation used for model selection/tuning
 - Test set evaluated once for the locked final model configuration
+- Paths are project-root relative in code (no machine-specific hardcoded paths in `src/`)
 
 ## Notes
 
