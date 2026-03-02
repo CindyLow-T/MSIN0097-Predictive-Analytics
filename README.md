@@ -12,7 +12,7 @@ This project builds a reproducible binary classification pipeline for predicting
 
 ## Main Notebook
 
-- `notebooks/predictive_analytics_credit_default_final.ipynb` (latest coursework notebook with diagnostics)
+- `predictive_analytics_credit_default_final.ipynb` (latest coursework notebook with diagnostics)
 
 ## Quick Start
 
@@ -20,7 +20,7 @@ This project builds a reproducible binary classification pipeline for predicting
 2. Install dependencies:
    - `pip install -r requirements.txt`
 3. Open and run:
-   - `notebooks/predictive_analytics_credit_default_final.ipynb`
+   - `predictive_analytics_credit_default_final.ipynb`
 4. In Jupyter: `Kernel -> Restart Kernel and Run All Cells` (from-scratch run).
 
 ## Data
