@@ -17,9 +17,8 @@ This project builds a reproducible binary classification pipeline for predicting
 ## Quick Start
 
 1. Create/activate Python environment.
-2. Install dependencies (choose one):
-   - Reproducible (pinned): `pip install -r requirements-lock.txt`
-   - Flexible (minimum versions): `pip install -r requirements.txt`
+2. Install dependencies:
+   - `pip install -r requirements.txt`
 3. Open and run:
    - `notebooks/predictive_analytics_credit_default_final.ipynb`
 4. In Jupyter: `Kernel -> Restart Kernel and Run All Cells` (from-scratch run).
@@ -68,8 +67,7 @@ Step-specific folders:
 - Final test metrics summary:
   - `outputs/metrics/step6_final_evaluation/final_test_evaluation_summary.json`
 - Requirements:
-  - `requirements.txt` (minimum versions)
-  - `requirements-lock.txt` (pinned versions for reproducibility)
+  - `requirements.txt` (pinned for reproducibility)
 
 ## Reproducibility Notes
 
