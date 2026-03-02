@@ -1,4 +1,6 @@
-# Credit Default Prediction (Validation-Disciplined ML Pipeline)
+# Credit Default Prediction
+
+A reproducible, end-to-end predictive analytics workflow for imbalanced credit-default classification, covering EDA, preprocessing, model comparison, tuning, diagnostics, and locked final evaluation.
 
 This project builds a reproducible binary classification pipeline for predicting `default payment next month` using the UCI credit card default dataset.
 
@@ -59,12 +61,15 @@ Step-specific folders:
 - `outputs/metrics/step5_diagnostics`, `outputs/figures/step5_diagnostics`
 - `outputs/metrics/step6_final_evaluation`, `outputs/figures/step6_final_evaluation`, `outputs/models/step6_final_evaluation`
 
-## Final Locked Configuration (Current)
+## Final Locked Configuration
 
 - Model: `HistGradientBoostingClassifier`
 - Threshold: `0.57` (selected on validation via F1)
 - Final test metrics summary:
   - `outputs/metrics/step6_final_evaluation/final_test_evaluation_summary.json`
+- Requirements:
+  - `requirements.txt` (minimum versions)
+  - `requirements-lock.txt` (pinned versions for reproducibility)
 
 ## Reproducibility Notes
 
