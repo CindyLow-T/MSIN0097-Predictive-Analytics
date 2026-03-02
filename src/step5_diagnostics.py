@@ -367,7 +367,7 @@ def run_step5_diagnostics(
 
 def main() -> None:
     root = Path(__file__).resolve().parents[1]
-    df = load_default_dataset(root / "data" / "raw" / "default_of_credit_card_clients.xls")
+    df = load_default_dataset(root / "data" / "default_of_credit_card_clients_raw.xls")
     artifacts = run_step5_diagnostics(df, root / "outputs")
     print(json.dumps({"metrics_dir": artifacts.metrics_dir, "figures_dir": artifacts.figures_dir, "summary_path": artifacts.summary_path}, indent=2))
 

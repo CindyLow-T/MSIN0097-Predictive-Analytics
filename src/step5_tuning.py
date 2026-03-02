@@ -441,7 +441,7 @@ def run_step5_tuning(
 
 def main() -> None:
     root = Path(__file__).resolve().parents[1]
-    df = load_default_dataset(root / "data" / "raw" / "default_of_credit_card_clients.xls")
+    df = load_default_dataset(root / "data" / "default_of_credit_card_clients_raw.xls")
     artifacts = run_step5_tuning(df, root / "outputs", random_state=42)
     print(
         json.dumps(

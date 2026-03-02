@@ -26,12 +26,14 @@ This project builds a reproducible binary classification pipeline for predicting
 ## Data
 
 - Expected raw file path:
-  - `data/raw/default_of_credit_card_clients.xls`
+  - `data/default_of_credit_card_clients_raw.xls`
+- Processed file path:
+  - `data/default_of_credit_card_clients_processed.csv`
 - Data source:
   - UCI Machine Learning Repository: Default of Credit Card Clients (Yeh & Lien, 2009)
   - URL: https://archive.ics.uci.edu/dataset/350/default+of+credit+card+clients
 - If the file is missing, download the dataset and place the Excel file at:
-  - `data/raw/default_of_credit_card_clients.xls`
+  - `data/default_of_credit_card_clients_raw.xls`
 
 ## Source Modules (`src/`)
 

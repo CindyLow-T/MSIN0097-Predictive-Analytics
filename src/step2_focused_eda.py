@@ -339,7 +339,7 @@ def load_default_dataset(data_path: str | Path) -> pd.DataFrame:
 
 def main() -> None:
     root = Path(__file__).resolve().parents[1]
-    data_path = root / "data" / "raw" / "default_of_credit_card_clients.xls"
+    data_path = root / "data" / "default_of_credit_card_clients_raw.xls"
     outputs_dir = root / "outputs"
     df = load_default_dataset(data_path)
     result = run_focused_eda(df, outputs_dir / "figures", outputs_dir / "metrics")
